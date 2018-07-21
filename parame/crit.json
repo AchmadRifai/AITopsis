@@ -1,0 +1,8 @@
+[
+	{"cb":"COST","kep":4,"krit":"Harga"},
+	{"cb":"BENEFIT","kep":5,"krit":"Kualitas"},
+	{"cb":"BENEFIT","kep":4,"krit":"Fitur"},
+	{"cb":"BENEFIT","kep":3,"krit":"Populer"},
+	{"cb":"BENEFIT","kep":3,"krit":"Purna Jual"},
+	{"cb":"BENEFIT","kep":2,"krit":"Keawetan"}
+]

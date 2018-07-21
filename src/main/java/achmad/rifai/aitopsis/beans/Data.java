@@ -1,41 +1,45 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package achmad.rifai.aitopsis.beans;
 
-import java.util.List;
-
-/**
- *
- * @author ashura
- */
 public class Data {
-    private String name;
-    private List<Double>value;
+	@com.google.gson.annotations.SerializedName("nama")
+	private String nama;
+	@com.google.gson.annotations.SerializedName("krit")
+	private String krit;
+	@com.google.gson.annotations.SerializedName("value")
+	private float value;
 
-    public Data() {
-    }
+	public Data() {
+		super();
+	}
 
-    public Data(String name, List<Double> value) {
-        this.name = name;
-        this.value = value;
-    }
+	public Data(String nama, String krit, float value) {
+		super();
+		this.nama = nama;
+		this.krit = krit;
+		this.value = value;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getNama() {
+		return nama;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setNama(String nama) {
+		this.nama = nama;
+	}
 
-    public List<Double> getValue() {
-        return value;
-    }
+	public String getKrit() {
+		return krit;
+	}
 
-    public void setValue(List<Double> value) {
-        this.value = value;
-    }
+	public void setKrit(String krit) {
+		this.krit = krit;
+	}
+
+	public float getValue() {
+		return value;
+	}
+
+	public void setValue(float value) {
+		this.value = value;
+	}
 }
